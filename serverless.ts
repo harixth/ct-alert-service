@@ -5,7 +5,7 @@ import alert from "@functions/alert";
 import create from "@functions/create";
 
 const serverlessConfiguration: AWS = {
-  service: "ct-identity-service",
+  service: "ct-alert-service",
   frameworkVersion: "3",
   plugins: ["serverless-esbuild", "serverless-offline"],
   provider: {
